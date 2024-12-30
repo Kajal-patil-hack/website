@@ -53,7 +53,7 @@ resource "aws_subnet" "private_subnets" {
 
 # Key pair (using existing key pair 'WebServer' from AWS account)
 resource "aws_key_pair" "ec2_key" {
-  key_name = "WebServer"  # Replace with your key name if different
+  key_name = " my-key.pub"  # Replace with your key name if different
   
 }
 
