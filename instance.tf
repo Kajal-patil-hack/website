@@ -25,7 +25,7 @@ resource "aws_security_group" "network-security-group" {
 
 # Creating Ubuntu EC2 instance
 resource "aws_instance" "example_server" {
-  ami             = "ami-0fd05997b4df4dff7aac"
+  ami             = "ami-03c68e52484d7488f"
   instance_type   = "t2.micro"
   tags = {
     Name = "web1"
